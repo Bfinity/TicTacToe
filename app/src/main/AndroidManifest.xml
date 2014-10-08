@@ -16,10 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".OpenScreen"
-            android:label="@string/title_activity_open_screen" >
-        </activity>
+
     </application>
 
 </manifest>

@@ -1,5 +1,6 @@
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".GameActivity"
@@ -9,29 +10,22 @@
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:layout_weight=".5"
-        android:background="#ff52fffa"/>
+        android:background="#ff34b0ff"/>
 
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
-        <TextView
+        <ImageButton
             android:id="@+id/row1col1"
-            android:text=""
-            android:textSize="20sp"
-            android:layout_height="match_parent"
             android:layout_weight="1"
-            />
-        <TextView
+            android:layout_height="match_parent"/>
+        <ImageButton
             android:id="@+id/row1col2"
-            android:text=""
-            android:textSize="20sp"
             android:layout_height="match_parent"
             android:layout_weight="1"/>
-        <TextView
+        <ImageButton
             android:id="@+id/row1col3"
-            android:text=""
-            android:textSize="20sp"
             android:layout_height="match_parent"
             android:layout_weight="1"/>
 
@@ -41,22 +35,16 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
-        <TextView
+        <ImageButton
             android:id="@+id/row2col1"
-            android:text=""
-            android:textSize="20sp"
             android:layout_height="match_parent"
             android:layout_weight="1"/>
-        <TextView
+        <ImageButton
             android:id="@+id/row2col2"
-            android:text=""
-            android:textSize="20sp"
             android:layout_height="match_parent"
             android:layout_weight="1"/>
-        <TextView
+        <ImageButton
             android:id="@+id/row2col3"
-            android:text=""
-            android:textSize="20sp"
             android:layout_height="match_parent"
             android:layout_weight="1"/>
 
@@ -66,22 +54,16 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
-        <TextView
+        <ImageButton
             android:id="@+id/row3col1"
-            android:text=""
-            android:textSize="20sp"
             android:layout_height="match_parent"
             android:layout_weight="1"/>
-        <TextView
+        <ImageButton
             android:id="@+id/row3col2"
-            android:text=""
-            android:textSize="20sp"
             android:layout_height="match_parent"
             android:layout_weight="1"/>
-        <TextView
+        <ImageButton
             android:id="@+id/row3col3"
-            android:text=""
-            android:textSize="20sp"
             android:layout_height="match_parent"
             android:layout_weight="1"/>
 

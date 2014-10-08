@@ -8,5 +8,9 @@
     <string name="title_activity_open_screen">OpenScreen</string>
     <string name="welcome">Tic Tac Toe</string>
     <string name="play">Let\'s Play!!</string>
+    <string name="player1Info">Please enter the first Player\'s name</string>
+    <string name="player2Info">Please enter the second Player\'s name</string>
+    <string name="playercall">it\'s your turn!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

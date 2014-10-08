@@ -6,12 +6,15 @@ package com.example.bfinerocks.tictactoe;
 public class GameAction {
     private GameBoard ticTacToe;
     private Player[] playersInGame;
+    int numOfTurns;
 
 
     public GameAction(Player player1, Player player2)
     {
         playersInGame = new Player[]{player1, player2};
         ticTacToe = new GameBoard();
+        numOfTurns = 0;
+
     }
 
     public GameBoard getTicTacToe()
@@ -21,10 +24,13 @@ public class GameAction {
 
     public Player getPlayer()
     {
-        int numOfTurns = 0;
         Player playerUp = playersInGame[numOfTurns % 2];
-        numOfTurns++;
         return playerUp;
+    }
+
+    public void setNumOfTurns()
+    {
+        numOfTurns++;
     }
 
 
